@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  
+}
+#root {
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+}
+.HeaderHero {
+  font-size: 128px;
+}
+.logo {
+  will-change: filter;
+  transition: filter 300ms;
+  padding: 24px;
+  box-sizing: border-box;
+  max-width: 600px;
+  cursor: pointer;
+  z-index: 99999;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #FFDE3E);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #FDD200);
+  -webkit-transition: .4s;
+  -moz-transition: .4s;
+  transition: .4s;
+}
+.logo:active {
+  opacity: 0.5;
+  -webkit-transition: .4s;
+  -moz-transition: .4s;
+  transition: .4s;
+}
+.lasHeader {
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+}
+.lasHeader img {
+  width: 100% !important;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+h1 {
+  font-size: 32px;
+  line-height: 40px;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-family: 'Bebas Neue', sans-serif;
+}
+h3 {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 32px;
+  line-height: 40px;
+  color: #ffffff;
+  margin: 0;
+  padding: 0px 16px;
+  margin-bottom: 16px;
+  font-weight: 500;
+  margin-top: 72px;
+}
+.section {
+  padding: 40px 0px;
+}
+.section:nth-child(even) {
+  background-color: #363052;
+}
+h2 {
+  font-size: 24px;
+  line-height: 36px;
+  color: #FCD100;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 0px;
+  font-family: 'Bebas Neue', sans-serif;
+}
+p {
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 16px;
+  padding: 0px 32px;
+}
+.card {
+  padding: 0px;
+  background-color: #3A3357;
+  width: 600px;
+  margin: 0 auto;
+  border-radius: 16px;
+  min-height: 100px;
+  color: #ffffff;
+  margin-bottom: 32px;
+  text-align: center;
+  z-index: 99999999;
+  padding-bottom: 32px;
+}
+.card h1 {
+  padding: 32px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+}
+.actionBar {
+  margin-top: 32px;
+}
+.read-the-docs {
+  color: #888;
+}
+.downloads {
+  max-width: 300px;
+  margin: 0 auto;
+}
+.downloads button {
+  width: 100%;
+  margin-bottom: 16px;
+}
+.podcasts {
+  max-width: 300px;
+  margin: 0 auto;
+}
+.podcasts button {
+  width: 100%;
+  margin-bottom: 16px;
+}
+button {
+  background-color: #FCD100 !important;
+  color: #3A3357;
+}
+table {
+  width: 100%;
+  padding: 0px;
+}
+table td {
+  text-align: left;
+  box-sizing: border-box;
+  padding: 0px;
+}
+td {
+  padding: 0px;
+  vertical-align: top !important;
+}
+.schedule-date {
+  width: 25%;
+  text-align: right;
+  padding-right: 24px;
+  font-weight: bold;
+  background-color: #26213C;
+  color: #EAEAEA;
+  border-right: dashed 2px #999999;
+  text-transform: uppercase;
+  padding: 8px;
+  padding-right: 16px;
+}
+.schedule-task {
+  width: 75%;
+  color: #ffffff;
+  padding: 0px 16px !important;
+}
+tr:nth-child(even) {
+  background-color: rgba(0,0,0,0.1);
+}
+table ul {
+  margin: 0;
+  padding: 0;
+  margin-left: 0px;
+}
+table ul li {
+  padding: 8px;
+  margin: 0;
+}
+.schedule-task ul li {
+  list-style: none;
+  position: relative;
+  padding-left: 20px; /* Make room for the icon */
+}
+
+.schedule-task ul li::before {
+  content: "."; /* Unicode value for your FontAwesome icon */ 
+  font-size: 32px;
+  line-height: 24px;
+  font-weight: 900; /* FontAwesome font-weight */
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.active-date {
+  color: #FCD100 !important;
+}
+button {
+  border-radius: 0px !important;
+}
