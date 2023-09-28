@@ -226,3 +226,8 @@ button {
   font-size: 64px;
   margin-bottom: 32px;
 }
+.downloadZoom {
+  padding: 8px 16px;
+  font-size: 24px;
+
+}
