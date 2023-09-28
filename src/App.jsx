@@ -14,10 +14,11 @@ function App() {
           <h1>Sober October Challenge</h1>
             <h2>Make a track in 31 days</h2>
 
-            <p>Need to write some text here...</p>
-
+            <p>Welcome to Sober October's 31-day rollercoaster of sobriety and sound! Buckle up, because every morning at 7AM UK time, we're dialing into Zoom for an exclusive session with Jake Oliver. <br /><br />By the end of the month, you won't just be sober; you'll also be a track-producing maestro!</p>
+            <p>Want the crispest sound and smoothest experience? Don't settle for browser-based mediocrity. Download the Zoom app and let's make this a month to remember!</p>
             <div className="actionBar">
-              <button>Get Started</button>
+            
+            <div className="downloadPrompt"><label>Download</label></div><div><button><i class="fa-kit fa-zoom-us fa-beat-fade"></i></button></div>
             </div>
          </div>
          <div className="section">
@@ -81,7 +82,7 @@ function App() {
               <tr><td className="schedule-date">Day 11</td><td className="schedule-task"><ul><li>Groove and Swing</li><li>Adding groove to your drum patterns</li></ul></td></tr>
               <tr><td className="schedule-date">Day 12</td><td className="schedule-task"><ul><li>Sampling</li><li>Incorporating samples into your drum track</li></ul></td></tr>
               <tr><td className="schedule-date">Day 13</td><td className="schedule-task"><ul><li>Layering Drums</li><li>Using layering techniques for a fuller sound</li></ul></td></tr>
-              <tr><td className="schedule-date">Day 14</td><td className="schedule-task"><ul><li>Overview of Week 2</li><li>Quick review and practice session</li></ul></td></tr>
+              <tr><td className="schedule-date">Day 14</td><td className="schedule-task"><ul><li>Overview of Week 2</li><li>Make a beat using only the samples provided - Homework task for the weekend</li></ul></td></tr>
               <tr><td className="schedule-date">Week 3</td><td className="schedule-task"><ul><li>Melody and Harmony</li></ul></td></tr>
               <tr><td className="schedule-date">Day 15</td><td className="schedule-task"><ul><li>Basic Music Theory</li><li>Scales, chords, and progressions</li></ul></td></tr>
               <tr><td className="schedule-date">Day 16</td><td className="schedule-task"><ul><li>MIDI Instruments</li><li>Loading and playing instruments via MIDI</li></ul></td></tr>
@@ -100,6 +101,11 @@ function App() {
               <tr><td className="schedule-date">Day 28</td><td className="schedule-task"><ul><li>Overview of Week 4</li><li>Final review and next steps</li></ul></td></tr>
             </table>
 
+          </div>
+          <div className="footerMast">
+            <div><i class="fa-regular fa-face-saluting"></i></div>
+            <h1>See you there</h1>
+            <p>Rest assured, you don't need a shred of experience to dive into this course. We've crafted it to be a breezy yet inspiring introduction to the world of music production. Get ready to unlock your creative potential in a fun and engaging way!</p>
           </div>
           </div>
       </div>

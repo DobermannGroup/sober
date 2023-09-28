@@ -94,13 +94,13 @@ h2 {
   color: #FCD100;
   margin: 0;
   padding: 0;
-  margin-bottom: 0px;
+  margin-bottom: 8px;
   font-family: 'Bebas Neue', sans-serif;
 }
 p {
   margin: 0;
   padding: 0;
-  color: #ffffff;
+  color: #DCD5FA;
   font-size: 16px;
   line-height: 24px;
   margin-bottom: 16px;
@@ -212,4 +212,16 @@ table ul li {
 }
 button {
   border-radius: 0px !important;
+}
+.downloadPrompt {
+  margin-bottom: 8px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.075em;
+}
+.footerMast {
+  margin-top: 48px;
+}
+.footerMast i {
+  font-size: 64px;
 }
