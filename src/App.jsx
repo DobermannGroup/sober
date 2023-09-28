@@ -66,6 +66,7 @@ function App() {
 
         <div className="section">
           <div className="schedule">
+            <div className="iconHeader"><i class="fa-regular fa-clock-six-thirty fa-spin"></i></div>
             <h1>Course Schedule</h1>
             <table>
               <tbody>

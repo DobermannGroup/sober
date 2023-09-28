@@ -234,6 +234,10 @@ button {
   font-size: 64px;
   margin-bottom: 32px;
 }
+.iconHeader {
+  font-size: 64px;
+  margin-bottom: 32px; 
+}
 .downloadZoom i {
   overflow: visible !important;
 }
