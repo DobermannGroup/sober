@@ -35,9 +35,10 @@ function App() {
           <h2>FREE TOOLS</h2>
           <p>Useful tools that you'll see being used in this course.</p>
           <div className="actionBar downloads">
-            <button><i className="fa-duotone fa-download fa-beat-fade"></i> STING.ZIP (<i className="fa-duotone fa-music"></i> 0mb)</button>
-            <button><i className="fa-duotone fa-download fa-beat-fade"></i> Podolski VST (<i className="fa-brands fa-windows"></i> 34.2mb)</button>
-            <button><i className="fa-duotone fa-download fa-beat-fade"></i> Podolski VST (<i className="fa-brands fa-apple"></i> 56.6mb)</button>
+            <a href="../cdn/STING.amxd" download><button><i className="fa-duotone fa-download fa-beat-fade"></i> STING.AMXD (<i className="fa-duotone fa-music"></i> 418kb)</button></a>
+            <a href="../cdn/ROZZER_ASS.amxd" download><button><i className="fa-duotone fa-download fa-beat-fade"></i> ROZZER.AMXD (<i className="fa-duotone fa-music"></i> 305kb)</button></a>
+            <a href="https://dl.u-he.com/releases/Podolski_123_12092_Win.zip" download><button><i className="fa-duotone fa-download fa-beat-fade"></i> Podolski VST (<i className="fa-brands fa-windows"></i> 34.2mb)</button></a>
+            <a href="https://dl.u-he.com/releases/Podolski_123_12092_Mac.zip" download><button><i className="fa-duotone fa-download fa-beat-fade"></i> Podolski VST (<i className="fa-brands fa-apple"></i> 56.6mb)</button></a>
           </div>
         </div>
 
@@ -46,7 +47,7 @@ function App() {
           <h2>FREE SOUNDS</h2>
           <p>Sample Packs to get you started.</p>
           <div className="actionBar downloads">
-            <button><i className="fa-duotone fa-download fa-beat-fade"></i> HOUSE ESSENTIALS (<i className="fa-duotone fa-cube"></i> 0mb)</button>
+            <a href="../cdn/SAMPLE_PACK01.zip" target="_blank" download><button><i className="fa-duotone fa-download fa-beat-fade"></i> HOUSE ESSENTIALS (<i className="fa-duotone fa-cube"></i> 3.1mb)</button></a>
           </div>
         </div>
 
