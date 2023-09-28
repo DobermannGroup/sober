@@ -53,10 +53,10 @@ function App() {
         <div className="section">
           <h1>The Podcast</h1>
           <h2>Stream latest episode</h2>
-          <p></p>
+          <div className="podcastVideo"><iframe width="100%" src="https://www.youtube.com/embed/mGihWTWcdok?si=DPWYT7IaKoTUEr3b" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
           <div className="actionBar podcasts">
-            <a href="{youtubeVideoURL}"><button><i className="fa-duotone fa-youtube"></i> Watch on YouTube</button></a>
-            <button><i className="fa-duotone fa-podcast"></i> Apple Podcasts</button>
+            <a href="https://youtu.be/mGihWTWcdok?si=H7kcFg9C_B2V4_W-" target="_blank"><button><i className="fa-duotone fa-youtube"></i> Watch on YouTube</button></a>
+            <button><i className="fa-brands fa-podcast"></i> Apple Podcasts</button>
             <button><i className="fa-brands fa-spotify"></i> Spotify</button>
             <button><i className="fa-brands fa-google"></i> Google Podcasts</button>
           </div>
