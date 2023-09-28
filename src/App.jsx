@@ -14,7 +14,7 @@ function App() {
           <h1>Sober October Challenge</h1>
             <h2>Make a track in 31 days</h2>
 
-            <p>Welcome to Sober October's 31-day rollercoaster of sobriety and sound! Buckle up, because every morning at 7AM UK time, we're dialing into Zoom for an exclusive session with Jake Oliver. <br /><br />By the end of the month, you won't just be sober; you'll also be a track-producing maestro!</p>
+            <p>Welcome to Sober October's 31-day rollercoaster of sobriety and sound! Buckle up, because every morning at 7AM UK time, we're dialing into Zoom for an exclusive session with the mega talented and devilishly handsome Jake Oliver. <br /><br />By the end of the month, you won't just be sober; you'll also be a track-producing maestro!</p>
             <p>Want the crispest sound and smoothest experience? Don't settle for browser-based mediocrity. Download the Zoom app and let's make this a month to remember!</p>
             <div className="actionBar">
             
