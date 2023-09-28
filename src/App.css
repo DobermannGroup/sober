@@ -181,6 +181,9 @@ td {
   color: #DCD5FA;
   padding: 0px 16px !important;
 }
+.schedule h1 {
+  margin-bottom: 32px;
+}
 .podcastVideo {
   padding: 16px;
 }
