@@ -226,8 +226,11 @@ button {
   font-size: 64px;
   margin-bottom: 32px;
 }
+.downloadZoom i {
+  overflow: visible !important;
+}
 .downloadZoom {
   padding: 8px 16px;
-  font-size: 24px;
+  font-size: 16px;
 
 }
