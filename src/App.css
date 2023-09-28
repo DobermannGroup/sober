@@ -184,8 +184,9 @@ td {
 .podcastVideo {
   padding: 16px;
 }
-.podcastVideo {
+.podcastVideo iframe {
   border: none;
+  height: 320px;
 }
 tr:nth-child(even) {
   background-color: rgba(0,0,0,0.1);
