@@ -18,7 +18,7 @@ function App() {
             <p>Want the crispest sound and smoothest experience? Don't settle for browser-based mediocrity. Download the Zoom app and let's make this a month to remember!</p>
             <div className="actionBar">
             
-            <div className="downloadPrompt"><label>Download</label></div><div><button><i class="fa-kit fa-zoom-us fa-beat-fade"></i></button></div>
+            <div className="downloadPrompt"><label>Download</label></div><div><button><i className="fa-kit fa-zoom-us fa-beat-fade"></i></button></div>
             </div>
          </div>
          <div className="section">
@@ -103,7 +103,7 @@ function App() {
 
           </div>
           <div className="footerMast">
-            <div><i class="fa-regular fa-face-saluting"></i></div>
+            <div><i className="fa-regular fa-face-saluting"></i></div>
             <h1>See you there</h1>
             <p>Rest assured, you don't need a shred of experience to dive into this course. We've crafted it to be a breezy yet inspiring introduction to the world of music production. Get ready to unlock your creative potential in a fun and engaging way!</p>
           </div>
