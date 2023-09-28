@@ -18,7 +18,7 @@ function App() {
           <p>Want the crispest sound and smoothest experience? Don't settle for browser-based mediocrity. Download the Zoom app and let's make this a month to remember!</p>
           <div className="actionBar">
 
-            <div className="downloadPrompt"><a href="https://zoom.us/download"><button className="downloadZoom"><i className="fa-duotone fa-download fa-bounce"></i> Download Zoom</button></a></div>
+            <div className="downloadPrompt"><a href="https://zoom.us/download" target="_blank"><button className="downloadZoom"><i className="fa-duotone fa-download fa-bounce"></i> Download Zoom</button></a></div>
           </div>
         </div>
         <div className="section">
@@ -27,7 +27,7 @@ function App() {
 
           <p>This is a 90 day free trial, giving you full access to the entire Live 11 tools that grant you endless capabilities. </p>
           <div className="actionBar">
-            <a href="https://www.ableton.com/en/trial/"><button>Download Ableton Live 11 Trial</button></a>
+            <a href="https://www.ableton.com/en/trial/" target="_blank"><button>Download Ableton Live 11 Trial</button></a>
           </div>
         </div>
         <div className="section">
@@ -56,9 +56,10 @@ function App() {
           <div className="podcastVideo"><iframe width="100%" src="https://www.youtube.com/embed/mGihWTWcdok?si=DPWYT7IaKoTUEr3b" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
           <div className="actionBar podcasts">
             <a href="https://youtu.be/mGihWTWcdok?si=H7kcFg9C_B2V4_W-" target="_blank"><button><i className="fa-brands fa-youtube"></i> Watch on YouTube</button></a>
-            <button><i className="fa-brands fa-podcast"></i> Apple Podcasts</button>
-            <button><i className="fa-brands fa-spotify"></i> Spotify</button>
-            <button><i className="fa-brands fa-google"></i> Google Podcasts</button>
+            <a href="https://podcasts.apple.com/gb/podcast/life-after-sesh/id1697429061" target="_blank"></a><button><i className="fa-brands fa-apple"></i> Apple Podcasts</button></a>
+            <a href="https://open.spotify.com/show/1bwQAcU92WwJTgT2oiNCNv?si=5ecb82478b0c4623" target="_blank"></a><button><i className="fa-brands fa-spotify"></i> Spotify</button></a>
+            <a href="https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS8yMjE4MTI2LnJzcw?sa=X&ved=2ahUKEwjgk5y7zrCAAxW4QKQEHeKiAXcQ9sEGegQIARAC" target="_blank"></a><button><i className="fa-brands fa-google"></i> Google Podcasts</button></a>
+            <a href="https://music.amazon.co.uk/podcasts/9c3cd345-1616-452a-9061-37987e35ebb9/life-after-sesh" target="_blank"></a><button><i class="fa-brands fa-amazon"></i> Google Podcasts</button></a>
           </div>
         </div>
 
