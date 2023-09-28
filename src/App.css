@@ -181,6 +181,12 @@ td {
   color: #DCD5FA;
   padding: 0px 16px !important;
 }
+.podcastVideo {
+  padding: 16px;
+}
+.podcastVideo {
+  border: none;
+}
 tr:nth-child(even) {
   background-color: rgba(0,0,0,0.1);
 }
