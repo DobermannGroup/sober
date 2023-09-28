@@ -1,0 +1,20 @@
+{
+    "name": "SOBER OCTOBER",
+    "short_name": "SOBER OCTOBER",
+    "icons": [
+        {
+            "src": "/src/assets/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/src/assets/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#564687",
+    "background_color": "#564687",
+    "start_url": "https://soberoctober.life/",
+    "display": "standalone"
+}
