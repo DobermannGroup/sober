@@ -232,5 +232,6 @@ button {
 .downloadZoom {
   padding: 8px 16px;
   font-size: 16px;
+  outline: none !important;
 
 }
