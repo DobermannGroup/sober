@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Logo from '../src/assets/logo.svg'; // Import the Logo component or image here
 
 function extractYoutubeVideoURL(sourceCode) {
   // Regular expression to match the YouTube video URL
