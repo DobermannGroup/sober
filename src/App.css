@@ -22,12 +22,13 @@
   max-width: 600px;
   cursor: pointer;
   z-index: 99999;
-}
-.logo:hover {
   filter: drop-shadow(0 0 2em #FFDE3E);
 }
+.logo:hover {
+  filter: drop-shadow(0 0 3em #FFDE3E);
+}
 .logo.react:hover {
-  filter: drop-shadow(0 0 2em #FDD200);
+  filter: drop-shadow(0 0 3em #FDD200);
   -webkit-transition: .4s;
   -moz-transition: .4s;
   transition: .4s;
