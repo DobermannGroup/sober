@@ -1,7 +1,50 @@
-import Logo from '../src/assets/logo.svg'
-import './App.css'
+import React, { useEffect, useState } from 'react';
+
+function extractYoutubeVideoURL(sourceCode) {
+  // Regular expression to match the YouTube video URL
+  const regex = /<lite-youtube videoid="([^"]+)"/;
+  const match = sourceCode.match(regex);
+
+  if (match && match[1]) {
+    // match[1] contains the YouTube video ID
+    return `https://www.youtube.com/watch?v=${match[1]}`;
+  } else {
+    return null;
+  }
+}
 
 function App() {
+  const [sourceCode, setSourceCode] = useState('');
+  const [youtubeVideoURL, setYoutubeVideoURL] = useState(null);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const response = await fetch('https://www.lifeaftersesh.com');
+        if (response.ok) {
+          const data = await response.text();
+          setSourceCode(data);
+        } else {
+          console.error('Failed to fetch data.');
+        }
+      } catch (error) {
+        console.error('Error:', error);
+      }
+    };
+
+    fetchData();
+  }, []);
+
+  useEffect(() => {
+    if (sourceCode) {
+      const url = extractYoutubeVideoURL(sourceCode);
+      if (url) {
+        setYoutubeVideoURL(url);
+      } else {
+        console.error('YouTube video URL not found in source code.');
+      }
+    }
+  }, [sourceCode]);
 
   return (
     <div className="card-contain">
@@ -17,17 +60,15 @@ function App() {
           <p>Welcome to Sober October's 31-day rollercoaster of sobriety and sound! Buckle up, because every morning at 7AM UK time, we're dialing into Zoom for an exclusive session with the mega talented and devilishly handsome Jake Oliver. <br /><br />By the end of the month, you won't just be sober; you'll also be a track-producing maestro!</p>
           <p>Want the crispest sound and smoothest experience? Don't settle for browser-based mediocrity. Download the Zoom app and let's make this a month to remember!</p>
           <div className="actionBar">
-
-            <div className="downloadPrompt"><button className="downloadZoom"><i className="fa-duotone fa-download fa-bounce"></i> Download Zoom</button></div>
+            <div className="downloadPrompt"><a href="https://zoom.us/download"><button className="downloadZoom"><i className="fa-duotone fa-download fa-bounce"></i> Download Zoom</button></a></div>
           </div>
         </div>
         <div className="section">
           <h1>The DAW</h1>
           <h2>Ableton Live 11 Suite</h2>
-
           <p>This is a 90 day free trial, giving you full access to the entire Live 11 tools that grant you endless capabilities. </p>
           <div className="actionBar">
-            <button>Download Ableton Live 11 Trial</button>
+            <a href="https://www.ableton.com/en/trial/"><button>Download Ableton Live 11 Trial</button></a>
           </div>
         </div>
         <div className="section">
@@ -40,7 +81,6 @@ function App() {
             <button><i className="fa-duotone fa-download fa-beat-fade"></i> Podolski VST (<i className="fa-brands fa-apple"></i> 56.6mb)</button>
           </div>
         </div>
-
         <div className="section">
           <h1>Sample Packs</h1>
           <h2>FREE SOUNDS</h2>
@@ -49,18 +89,17 @@ function App() {
             <button><i className="fa-duotone fa-download fa-beat-fade"></i> HOUSE ESSENTIALS (<i className="fa-duotone fa-cube"></i> 0mb)</button>
           </div>
         </div>
-
         <div className="section">
           <h1>The Podcast</h1>
           <h2>Stream latest episode</h2>
           <p></p>
           <div className="actionBar podcasts">
+            <a href={youtubeVideoURL}><button><i className="fa-duotone fa-youtube"></i> Watch on YouTube</button></a>
             <button><i className="fa-duotone fa-podcast"></i> Apple Podcasts</button>
             <button><i className="fa-brands fa-spotify"></i> Spotify</button>
             <button><i className="fa-brands fa-google"></i> Google Podcasts</button>
           </div>
         </div>
-
         <div className="section">
           <div className="schedule">
             <h1>Course Schedule</h1>
@@ -109,7 +148,7 @@ function App() {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

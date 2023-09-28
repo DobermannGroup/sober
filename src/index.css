@@ -19,12 +19,12 @@
 }
 
 a {
-  font-weight: 500;
-  color: #FDD200;
-  text-decoration: inherit;
+  text-decoration: none;
+  color: inherit;
 }
 a:hover {
-  color: #FDD200;
+  text-decoration: none;
+  color: inherit;
 }
 
 body {

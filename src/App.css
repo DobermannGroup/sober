@@ -170,7 +170,7 @@ td {
   padding-right: 24px;
   font-weight: bold;
   background-color: #26213C;
-  color: #EAEAEA;
+  color: #ffffff;
   border-right: dashed 2px #999999;
   text-transform: uppercase;
   padding: 8px;
@@ -178,7 +178,7 @@ td {
 }
 .schedule-task {
   width: 75%;
-  color: #ffffff;
+  color: #DCD5FA;
   padding: 0px 16px !important;
 }
 tr:nth-child(even) {
