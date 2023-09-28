@@ -18,7 +18,7 @@ function App() {
             <p>Want the crispest sound and smoothest experience? Don't settle for browser-based mediocrity. Download the Zoom app and let's make this a month to remember!</p>
             <div className="actionBar">
             
-            <div className="downloadPrompt"><div><button className="downloadZoom"><i className="fa-duotone fa-download fa-bounce"></i> Download Zoom</button></div>
+            <div className="downloadPrompt"><button className="downloadZoom"><i className="fa-duotone fa-download fa-bounce"></i> Download Zoom</button></div>
             </div>
          </div>
          <div className="section">
