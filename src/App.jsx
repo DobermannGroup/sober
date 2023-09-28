@@ -59,7 +59,7 @@ function App() {
             <a href="https://podcasts.apple.com/gb/podcast/life-after-sesh/id1697429061" target="_blank"><button><i className="fa-brands fa-apple"></i> Apple Podcasts</button></a>
             <a href="https://open.spotify.com/show/1bwQAcU92WwJTgT2oiNCNv?si=5ecb82478b0c4623" target="_blank"><button><i className="fa-brands fa-spotify"></i> Spotify</button></a>
             <a href="https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS8yMjE4MTI2LnJzcw?sa=X&ved=2ahUKEwjgk5y7zrCAAxW4QKQEHeKiAXcQ9sEGegQIARAC" target="_blank"><button><i className="fa-brands fa-google"></i> Google Podcasts</button></a>
-            <a href="https://music.amazon.co.uk/podcasts/9c3cd345-1616-452a-9061-37987e35ebb9/life-after-sesh" target="_blank"><button><i class="fa-brands fa-amazon"></i> Google Podcasts</button></a>
+            <a href="https://music.amazon.co.uk/podcasts/9c3cd345-1616-452a-9061-37987e35ebb9/life-after-sesh" target="_blank"><button><i class="fa-brands fa-amazon"></i> Amazon Podcasts</button></a>
           </div>
         </div>
 
